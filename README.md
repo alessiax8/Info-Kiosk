@@ -11,7 +11,7 @@ L'amministratore deve avere la possibilità di gestire il sistema, gli account p
 * Diana Liloia
 ## Info
 **Inizio:** 16.03.2018 
-**Consegna:** 18.05.2018
+**Consegna:** 18.05.2018 
  * [Quaderno dei compiti](https://github.com/alessiax8/Info-Kiosk/blob/master/Documenti/Adriano_qdc_InfoKiosk.docx "Quaderno dei compiti")
 ## Diari
 * [Diari](https://github.com/alessiax8/Info-Kiosk/tree/master/Diari "Diari")
