@@ -6,7 +6,7 @@ Il tutto deve essere fatto tramite un server.
 L'amministratore deve avere la possibilità di gestire il sistema, gli account presenti sul sito e le impostazioni dei moduli, che comprondono l'aggiunta o l'eliminazione di uno o più di essi.
 ### Docente Responsabile
 * Adriano Barchi
-### Lavoratori
+### Lavoratrici
 * Alessia Sarak
 * Diana Liloia
 ## Info
