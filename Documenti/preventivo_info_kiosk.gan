@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Info Kiosk" company="" webLink="http://" view-date="2018-03-09" view-index="0" gantt-divider-location="579" resource-divider-location="300" version="2.8.5" locale="it">
+    <description><![CDATA[Bisogna progettare un sistema kiosk per le aule della sezione Info.]]></description>
+    <view zooming-state="default:0" id="gantt-chart">
+        <field id="tpd3" name="Nome" width="361" order="0"/>
+        <field id="tpd4" name="Data d'inizio" width="103" order="1"/>
+        <field id="tpd5" name="Data di fine" width="111" order="2"/>
+        <option id="color.recent"><![CDATA[#ffff33 #3333ff #66ffff #ffffff #ff3333 #ff9999 #99ff99 #ff99ff]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nome" width="210" order="0"/>
+        <field id="1" name="Ruolo predefinito" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars base-id="nessuno">
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="1" tue="1" wed="1" thu="1" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="2018" month="4" date="6" type="HOLIDAY"/>
+        <date year="2018" month="3" date="30" type="HOLIDAY"><![CDATA[Vacanza il 30/03/18 0.00]]></date>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="42" name="Da fare durante il corso di tutto il progetto" meeting="false" start="2018-03-16" duration="8" complete="0" expand="true">
+            <task id="3" name="Documentazione" color="#99ff99" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2018-03-16" duration="8" complete="0" priority="4" expand="true"/>
+            <task id="4" name="Diari" color="#99ff99" meeting="false" start="2018-03-16" duration="8" complete="0" priority="2" expand="true"/>
+            <task id="2" name="Presentazione" color="#99ff99" meeting="false" start="2018-03-16" duration="8" complete="0" priority="2" expand="true"/>
+        </task>
+        <task id="40" name="Analisi" meeting="false" start="2018-03-16" duration="1" complete="0" expand="true">
+            <task id="0" name="Requisiti" color="#ffff33" meeting="false" start="2018-03-16" duration="1" complete="0" expand="true"/>
+            <task id="43" name="GANNT" color="#ffff33" meeting="false" start="2018-03-16" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="41" name="Implementazione" meeting="false" start="2018-03-23" duration="5" complete="0" expand="true">
+            <task id="5" name="Creazione server" color="#66ffff" meeting="false" start="2018-03-23" duration="2" complete="0" expand="true"/>
+            <task id="67" name="Sito Web" color="#66ffff" meeting="false" start="2018-04-20" duration="1" complete="0" expand="true"/>
+            <task id="6" name="Sincronizzazione orario scolastico" color="#ff99ff" meeting="false" start="2018-03-23" duration="2" complete="0" expand="true"/>
+            <task id="7" name="Sincronizzazione account docenti" color="#ff99ff" meeting="false" start="2018-04-20" duration="1" complete="0" expand="true"/>
+            <task id="8" name="Sincronizzazione orari bus" color="#ff99ff" meeting="false" start="2018-04-27" duration="1" complete="0" expand="true"/>
+            <task id="9" name="Orologio" color="#66ffff" meeting="false" start="2018-04-27" duration="1" complete="0" expand="true"/>
+            <task id="10" name="Aggiunta di avvisi da parte di un docente" color="#ffff33" meeting="false" start="2018-05-04" duration="1" complete="0" expand="true"/>
+            <task id="11" name="Visualizzazione degli avvisi" color="#ffff33" meeting="false" start="2018-05-04" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="56" name="Test" meeting="false" start="2018-04-13" duration="3" complete="0" expand="true">
+            <task id="57" name="TC-001" color="#3333ff" meeting="true" start="2018-04-13" duration="0" complete="0" expand="true">
+                <notes><![CDATA[Test per verificare il funzionamento del server
+]]></notes>
+            </task>
+            <task id="58" name="TC-002" color="#3333ff" meeting="true" start="2018-04-20" duration="0" complete="0" expand="true">
+                <notes><![CDATA[Test per verificare il funzionamento del sito web]]></notes>
+            </task>
+            <task id="59" name="TC-003" color="#3333ff" meeting="true" start="2018-04-20" duration="0" complete="0" expand="true">
+                <notes><![CDATA[Test per verificare il funzionamento degli account]]></notes>
+            </task>
+            <task id="60" name="TC-004" color="#3333ff" meeting="true" start="2018-04-27" duration="0" complete="0" expand="true">
+                <notes><![CDATA[Test per verificare che gli orari scolastici delle aule siano giusti]]></notes>
+            </task>
+            <task id="61" name="TC-005" color="#3333ff" meeting="true" start="2018-04-13" duration="0" complete="0" expand="true">
+                <notes><![CDATA[Test per verificare che gli orari del bus siano giusti]]></notes>
+            </task>
+            <task id="62" name="TC-006" color="#3333ff" meeting="true" start="2018-04-27" duration="0" complete="0" expand="true">
+                <notes><![CDATA[Test per verificare che l'rario sia giusto]]></notes>
+            </task>
+            <task id="63" name="TC-007" color="#3333ff" meeting="true" start="2018-05-04" duration="0" complete="0" expand="true">
+                <notes><![CDATA[Test per verificare che gli avvisi vengano inseriti correttamente]]></notes>
+            </task>
+        </task>
+        <task id="14" name="Fine progetto e revisione di tutto" color="#ff3333" meeting="true" start="2018-05-18" duration="0" complete="0" priority="4" expand="true">
+            <notes><![CDATA[Fine e consegna del progetto
+]]></notes>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
