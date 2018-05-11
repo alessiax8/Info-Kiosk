@@ -304,7 +304,7 @@ ul#menu li a:hover
   margin: 0;
   font: normal 140% 'Yanone Kaffeesatz', sans-serif;}
 
-table
+/*table
 { margin: 10px 0 30px 0;}
 
 table tr th, table tr td
@@ -316,4 +316,39 @@ table tr th, table tr td
 table tr td
 { background: #FBFBFB;
   color: #111;
-  border-top: 1px solid #FFF;}
+  border-top: 1px solid #FFF;}*/
+
+.button {
+    background-color: #FBFBFB;
+    border: 1px solid #E7E7E7;
+    color: #F14E23;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1 {
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#tableAvvisi{
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+#tableAvvisi tr td{
+  background-color: white;
+  border: 1px solid black;
+}
+
+#tableAvvisi tr th{
+  background-color:#FBFBFB;
+  color: #F14E23;
+  border: 1px solid black;
+}

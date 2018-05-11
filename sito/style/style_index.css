@@ -9,8 +9,9 @@
 
 #webSiteCpt
 { width: 100%;
-  height: 250px;}
+  height: 500px;}
 
-#webSiteTpl
-{ width: 100%;
-  height: 250px;}
+td
+{ width: 100px;}
+tr
+{ height: 100px;}
